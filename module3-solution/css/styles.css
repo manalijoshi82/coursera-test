@@ -1,0 +1,88 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;
+	margin:0 auto;
+}
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #999;
+	/*border: 3px solid #000;*/
+	border-radius: 0;
+}
+
+
+
+#header-nav h1 {
+	font-size: 1.5em;
+	color: #000;
+    margin: 0;
+    margin-left: 0;
+}
+
+.navbar >.container .navbar-brand {
+	margin-left: 0;
+}
+.navbar-nav {
+	margin: 0;
+}
+
+#collapsable-nav {
+	padding: 0;
+}
+
+#nav-list {
+  padding-left: 0;
+}
+
+#nav-list a {
+  background-color: #999;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 1.2em;
+  font-weight:bolder;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #999;
+}
+
+
+/** END HEADER **/
+
+
+
+h1{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 900;
+	color: #000;
+}
+
+/** MAIN CONTENT **/
+
+#main-content {
+	margin-top: 40px;
+}
+.chicken h3 {
+	color:#000;
+	background-color: #999;
+	margin:0;
+	padding-top: 10px;
+	font-weight: 900;
+
+}
+
+.chicken p{
+	background-color: #999;
+	padding: 15px;
+	color: #000;
+	height: 1000px;
+
+}
